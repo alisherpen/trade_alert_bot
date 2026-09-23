@@ -1,0 +1,14 @@
+# ---- Majburiy ----
+MetaTrader5>=5.0.45          # Faqat Windows. MT5 terminal ochiq bo'lishi shart.
+Telethon>=1.36,<2.0          # Userbot: buyruqlar, xabar/rasm yuborish
+python-dotenv>=1.0.1         # .env konfiguratsiya
+Pillow>=10.2.0               # M15 candlestick chart rasmini chizish
+numpy>=1.26                  # MT5 svechalari numpy array sifatida keladi
+
+# ---- Qo'ng'iroq ichida gapirish uchun ----
+py-tgcalls>=2.3.0            # Haqiqiy P2P qo'ng'iroq + ovoz uzatish (ntgcalls)
+edge-tts>=6.1.10             # O'zbekcha TTS (uz-UZ-SardorNeural)
+
+# DIQQAT: py-tgcalls ffmpeg VA ffprobe ni talab qiladi.
+#   winget install Gyan.FFmpeg
+# Ularsiz qo'ng'iroq faqat jiringlaydi, ovoz esa alohida voice-message bo'lib keladi.
